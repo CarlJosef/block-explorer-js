@@ -105,24 +105,27 @@ npm test
 
 ### Project Structure
 
+## Project Structure
+
+```text
 block-explorer-js/
 ├── assets/
-│ └── block-explorer-screenshot.png
+│   └── block-explorer-screenshot.png
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ ├── services/
-│ │ └── blockchainService.js
-│ ├── ui/
-│ │ ├── dom.js
-│ │ └── render.js
-│ ├── utils/
-│ │ └── validators.js
-│ ├── BlockchainApp.js
-│ ├── config.js
-│ └── main.js
+│   ├── services/
+│   │   └── blockchainService.js
+│   ├── ui/
+│   │   ├── dom.js
+│   │   └── render.js
+│   ├── utils/
+│   │   └── validators.js
+│   ├── BlockchainApp.js
+│   ├── config.js
+│   └── main.js
 ├── tests/
-│ └── validators.test.js
+│   └── validators.test.js
 ├── index.html
 ├── LICENSE
 ├── package.json
@@ -133,3 +136,4 @@ block-explorer-js/
 ### Verification
 
 Verified by CarlJosef -:- 2026-03-31. Version 1.0.0
+```
